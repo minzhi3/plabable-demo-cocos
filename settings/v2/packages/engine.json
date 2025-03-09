@@ -9,10 +9,10 @@
         "_value": true
       },
       "gfx-webgl2": {
-        "_value": false
+        "_value": true
       },
       "gfx-webgpu": {
-        "_value": false
+        "_value": true
       },
       "animation": {
         "_value": true
@@ -24,7 +24,7 @@
         "_value": true
       },
       "meshopt": {
-        "_value": false
+        "_value": true
       },
       "2d": {
         "_value": true
@@ -43,10 +43,10 @@
         "_option": "physics-cannon"
       },
       "physics-ammo": {
-        "_value": false
+        "_value": "physics-ammo"
       },
       "physics-cannon": {
-        "_value": false
+        "_value": "physics-cannon"
       },
       "physics-physx": {
         "_value": false
@@ -77,7 +77,7 @@
         "_value": false
       },
       "geometry-renderer": {
-        "_value": false
+        "_value": true
       },
       "debug-renderer": {
         "_value": false
@@ -89,10 +89,10 @@
         "_value": true
       },
       "video": {
-        "_value": true
+        "_value": false
       },
       "webview": {
-        "_value": false
+        "_value": true
       },
       "tween": {
         "_value": true
@@ -107,7 +107,7 @@
         "_value": false
       },
       "light-probe": {
-        "_value": true
+        "_value": false
       },
       "tiled-map": {
         "_value": false
@@ -122,7 +122,7 @@
         "_value": true
       },
       "procedural-animation": {
-        "_value": false
+        "_value": true
       },
       "custom-pipeline-post-process": {
         "_value": false
@@ -148,17 +148,21 @@
       "animation",
       "audio",
       "base",
+      "geometry-renderer",
       "gfx-webgl",
+      "gfx-webgl2",
+      "gfx-webgpu",
       "legacy-pipeline",
-      "light-probe",
       "marionette",
+      "meshopt",
       "particle",
       "physics-cannon",
       "primitive",
+      "procedural-animation",
       "skeletal-animation",
       "tween",
       "ui",
-      "video"
+      "webview"
     ],
     "noDeprecatedFeatures": {
       "value": false,

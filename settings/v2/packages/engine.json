@@ -12,7 +12,7 @@
         "_value": true
       },
       "gfx-webgpu": {
-        "_value": true
+        "_value": false
       },
       "animation": {
         "_value": true
@@ -151,7 +151,6 @@
       "geometry-renderer",
       "gfx-webgl",
       "gfx-webgl2",
-      "gfx-webgpu",
       "legacy-pipeline",
       "marionette",
       "meshopt",
